@@ -26,3 +26,6 @@
 [https://www.easy-mock.com/mock/5c9309f3f5571b2492aaa105/GHome_copy/getHenanOthers
 ](https://www.easy-mock.com/mock/5c9309f3f5571b2492aaa105/GHome_copy/getHenanOthers)
 
+
+实现思路 
+TODO
