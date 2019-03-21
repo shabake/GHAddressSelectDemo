@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03520FF157040132C4807C8C /* libPods-GHAddressSelectDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 054CCA3B3B44396C8E620B16 /* libPods-GHAddressSelectDemoTests.a */; };
+		7BFBB27884B5148D763ECF5C /* libPods-GHAddressSelectDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BE13EBA4B3EF014D6E7261 /* libPods-GHAddressSelectDemoUITests.a */; };
+		A8AD0BF0C6CB2B0FCB64FE5B /* libPods-GHAddressSelectDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB240385CB4B52EFFD8873D /* libPods-GHAddressSelectDemo.a */; };
+		D6CACE0E224339E400B599D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE0D224339E400B599D3 /* AppDelegate.m */; };
+		D6CACE11224339E400B599D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE10224339E400B599D3 /* ViewController.m */; };
+		D6CACE14224339E400B599D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CACE12224339E400B599D3 /* Main.storyboard */; };
+		D6CACE16224339E500B599D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CACE15224339E500B599D3 /* Assets.xcassets */; };
+		D6CACE19224339E500B599D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CACE17224339E500B599D3 /* LaunchScreen.storyboard */; };
+		D6CACE1C224339E500B599D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE1B224339E500B599D3 /* main.m */; };
+		D6CACE26224339E500B599D3 /* GHAddressSelectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE25224339E500B599D3 /* GHAddressSelectDemoTests.m */; };
+		D6CACE31224339E500B599D3 /* GHAddressSelectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE30224339E500B599D3 /* GHAddressSelectDemoUITests.m */; };
+		D6CACE4122433A0400B599D3 /* GHAddressSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE4022433A0400B599D3 /* GHAddressSelect.m */; };
+		D6CACE442243406900B599D3 /* GHHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE432243406900B599D3 /* GHHTTPManager.m */; };
+		D6CACE5922434BE400B599D3 /* UIButton+BackGroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE4722434BE400B599D3 /* UIButton+BackGroundColor.m */; };
+		D6CACE5A22434BE400B599D3 /* NSDictionary+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE4922434BE400B599D3 /* NSDictionary+GHAdd.m */; };
+		D6CACE5B22434BE400B599D3 /* NSString+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE4B22434BE400B599D3 /* NSString+GHAdd.m */; };
+		D6CACE5C22434BE400B599D3 /* UIView+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE5122434BE400B599D3 /* UIView+GHAdd.m */; };
+		D6CACE5D22434BE400B599D3 /* NSObject+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE5422434BE400B599D3 /* NSObject+GHAdd.m */; };
+		D6CACE5E22434BE400B599D3 /* UITableView+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE5522434BE400B599D3 /* UITableView+GHAdd.m */; };
+		D6CACE5F22434BE400B599D3 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE5622434BE400B599D3 /* UIColor+Category.m */; };
+		D6CACE6022434BE400B599D3 /* UILabel+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE5722434BE400B599D3 /* UILabel+GHAdd.m */; };
+		D6CACE6122434BE400B599D3 /* NSArray+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE5822434BE400B599D3 /* NSArray+GHAdd.m */; };
+		D6CACE6422434DFE00B599D3 /* GHAddressSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE6322434DFE00B599D3 /* GHAddressSelectCell.m */; };
+		D6CACE672243506500B599D3 /* GHAddressSelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE662243506500B599D3 /* GHAddressSelectModel.m */; };
+		D6CACE6A22435D6500B599D3 /* ToastTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CACE6922435D6500B599D3 /* ToastTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6CACE22224339E500B599D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CACE01224339E400B599D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CACE08224339E400B599D3;
+			remoteInfo = GHAddressSelectDemo;
+		};
+		D6CACE2D224339E500B599D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CACE01224339E400B599D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CACE08224339E400B599D3;
+			remoteInfo = GHAddressSelectDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054CCA3B3B44396C8E620B16 /* libPods-GHAddressSelectDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHAddressSelectDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F9AE9B531ADE09A26E0FEF /* Pods-GHAddressSelectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHAddressSelectDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHAddressSelectDemo/Pods-GHAddressSelectDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		41F91DD39C0769A1990D27FA /* Pods-GHAddressSelectDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHAddressSelectDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHAddressSelectDemoUITests/Pods-GHAddressSelectDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B1E7F7DF2DB824884360597 /* Pods-GHAddressSelectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHAddressSelectDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHAddressSelectDemo/Pods-GHAddressSelectDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B41E2934C8BC948DAE25BDBA /* Pods-GHAddressSelectDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHAddressSelectDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHAddressSelectDemoTests/Pods-GHAddressSelectDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFC9FB04B7778C665DFC371F /* Pods-GHAddressSelectDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHAddressSelectDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHAddressSelectDemoTests/Pods-GHAddressSelectDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D04C08AB447B72E328C656F3 /* Pods-GHAddressSelectDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHAddressSelectDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHAddressSelectDemoUITests/Pods-GHAddressSelectDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6CACE09224339E400B599D3 /* GHAddressSelectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHAddressSelectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CACE0C224339E400B599D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6CACE0D224339E400B599D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6CACE0F224339E400B599D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6CACE10224339E400B599D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6CACE13224339E400B599D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6CACE15224339E500B599D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6CACE18224339E500B599D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6CACE1A224339E500B599D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CACE1B224339E500B599D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6CACE21224339E500B599D3 /* GHAddressSelectDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHAddressSelectDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CACE25224339E500B599D3 /* GHAddressSelectDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHAddressSelectDemoTests.m; sourceTree = "<group>"; };
+		D6CACE27224339E500B599D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CACE2C224339E500B599D3 /* GHAddressSelectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHAddressSelectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CACE30224339E500B599D3 /* GHAddressSelectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHAddressSelectDemoUITests.m; sourceTree = "<group>"; };
+		D6CACE32224339E500B599D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CACE3F22433A0400B599D3 /* GHAddressSelect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHAddressSelect.h; sourceTree = "<group>"; };
+		D6CACE4022433A0400B599D3 /* GHAddressSelect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHAddressSelect.m; sourceTree = "<group>"; };
+		D6CACE422243406900B599D3 /* GHHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHTTPManager.h; sourceTree = SOURCE_ROOT; };
+		D6CACE432243406900B599D3 /* GHHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHHTTPManager.m; sourceTree = SOURCE_ROOT; };
+		D6CACE452243415C00B599D3 /* GHAddressSelectHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHAddressSelectHeader.h; sourceTree = "<group>"; };
+		D6CACE4722434BE400B599D3 /* UIButton+BackGroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BackGroundColor.m"; sourceTree = "<group>"; };
+		D6CACE4822434BE400B599D3 /* UIView+GHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GHAdd.h"; sourceTree = "<group>"; };
+		D6CACE4922434BE400B599D3 /* NSDictionary+GHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GHAdd.m"; sourceTree = "<group>"; };
+		D6CACE4A22434BE400B599D3 /* UITableView+GHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+GHAdd.h"; sourceTree = "<group>"; };
+		D6CACE4B22434BE400B599D3 /* NSString+GHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GHAdd.m"; sourceTree = "<group>"; };
+		D6CACE4C22434BE400B599D3 /* NSObject+GHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GHAdd.h"; sourceTree = "<group>"; };
+		D6CACE4D22434BE400B599D3 /* UILabel+GHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+GHAdd.h"; sourceTree = "<group>"; };
+		D6CACE4E22434BE400B599D3 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		D6CACE4F22434BE400B599D3 /* NSArray+GHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+GHAdd.h"; sourceTree = "<group>"; };
+		D6CACE5022434BE400B599D3 /* NSDictionary+GHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GHAdd.h"; sourceTree = "<group>"; };
+		D6CACE5122434BE400B599D3 /* UIView+GHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GHAdd.m"; sourceTree = "<group>"; };
+		D6CACE5222434BE400B599D3 /* UIButton+BackGroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BackGroundColor.h"; sourceTree = "<group>"; };
+		D6CACE5322434BE400B599D3 /* NSString+GHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GHAdd.h"; sourceTree = "<group>"; };
+		D6CACE5422434BE400B599D3 /* NSObject+GHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GHAdd.m"; sourceTree = "<group>"; };
+		D6CACE5522434BE400B599D3 /* UITableView+GHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GHAdd.m"; sourceTree = "<group>"; };
+		D6CACE5622434BE400B599D3 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		D6CACE5722434BE400B599D3 /* UILabel+GHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GHAdd.m"; sourceTree = "<group>"; };
+		D6CACE5822434BE400B599D3 /* NSArray+GHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GHAdd.m"; sourceTree = "<group>"; };
+		D6CACE6222434DFE00B599D3 /* GHAddressSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHAddressSelectCell.h; sourceTree = "<group>"; };
+		D6CACE6322434DFE00B599D3 /* GHAddressSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHAddressSelectCell.m; sourceTree = "<group>"; };
+		D6CACE652243506500B599D3 /* GHAddressSelectModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHAddressSelectModel.h; sourceTree = "<group>"; };
+		D6CACE662243506500B599D3 /* GHAddressSelectModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHAddressSelectModel.m; sourceTree = "<group>"; };
+		D6CACE6822435D6500B599D3 /* ToastTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastTool.h; sourceTree = "<group>"; };
+		D6CACE6922435D6500B599D3 /* ToastTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastTool.m; sourceTree = "<group>"; };
+		E2BE13EBA4B3EF014D6E7261 /* libPods-GHAddressSelectDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHAddressSelectDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB240385CB4B52EFFD8873D /* libPods-GHAddressSelectDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHAddressSelectDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6CACE06224339E400B599D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AD0BF0C6CB2B0FCB64FE5B /* libPods-GHAddressSelectDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CACE1E224339E500B599D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03520FF157040132C4807C8C /* libPods-GHAddressSelectDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CACE29224339E500B599D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFBB27884B5148D763ECF5C /* libPods-GHAddressSelectDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E21BB4BDB73D2016BE24517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBB240385CB4B52EFFD8873D /* libPods-GHAddressSelectDemo.a */,
+				054CCA3B3B44396C8E620B16 /* libPods-GHAddressSelectDemoTests.a */,
+				E2BE13EBA4B3EF014D6E7261 /* libPods-GHAddressSelectDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEB0DCAB41E430EE82EBD27A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32F9AE9B531ADE09A26E0FEF /* Pods-GHAddressSelectDemo.debug.xcconfig */,
+				7B1E7F7DF2DB824884360597 /* Pods-GHAddressSelectDemo.release.xcconfig */,
+				BFC9FB04B7778C665DFC371F /* Pods-GHAddressSelectDemoTests.debug.xcconfig */,
+				B41E2934C8BC948DAE25BDBA /* Pods-GHAddressSelectDemoTests.release.xcconfig */,
+				41F91DD39C0769A1990D27FA /* Pods-GHAddressSelectDemoUITests.debug.xcconfig */,
+				D04C08AB447B72E328C656F3 /* Pods-GHAddressSelectDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6CACE00224339E400B599D3 = {
+			isa = PBXGroup;
+			children = (
+				D6CACE3E224339F500B599D3 /* GHAddressSelect */,
+				D6CACE0B224339E400B599D3 /* GHAddressSelectDemo */,
+				D6CACE24224339E500B599D3 /* GHAddressSelectDemoTests */,
+				D6CACE2F224339E500B599D3 /* GHAddressSelectDemoUITests */,
+				D6CACE0A224339E400B599D3 /* Products */,
+				BEB0DCAB41E430EE82EBD27A /* Pods */,
+				0E21BB4BDB73D2016BE24517 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CACE0A224339E400B599D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CACE09224339E400B599D3 /* GHAddressSelectDemo.app */,
+				D6CACE21224339E500B599D3 /* GHAddressSelectDemoTests.xctest */,
+				D6CACE2C224339E500B599D3 /* GHAddressSelectDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6CACE0B224339E400B599D3 /* GHAddressSelectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D6CACE422243406900B599D3 /* GHHTTPManager.h */,
+				D6CACE432243406900B599D3 /* GHHTTPManager.m */,
+				D6CACE0C224339E400B599D3 /* AppDelegate.h */,
+				D6CACE0D224339E400B599D3 /* AppDelegate.m */,
+				D6CACE0F224339E400B599D3 /* ViewController.h */,
+				D6CACE10224339E400B599D3 /* ViewController.m */,
+				D6CACE12224339E400B599D3 /* Main.storyboard */,
+				D6CACE15224339E500B599D3 /* Assets.xcassets */,
+				D6CACE17224339E500B599D3 /* LaunchScreen.storyboard */,
+				D6CACE1A224339E500B599D3 /* Info.plist */,
+				D6CACE1B224339E500B599D3 /* main.m */,
+			);
+			path = GHAddressSelectDemo;
+			sourceTree = "<group>";
+		};
+		D6CACE24224339E500B599D3 /* GHAddressSelectDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CACE25224339E500B599D3 /* GHAddressSelectDemoTests.m */,
+				D6CACE27224339E500B599D3 /* Info.plist */,
+			);
+			path = GHAddressSelectDemoTests;
+			sourceTree = "<group>";
+		};
+		D6CACE2F224339E500B599D3 /* GHAddressSelectDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CACE30224339E500B599D3 /* GHAddressSelectDemoUITests.m */,
+				D6CACE32224339E500B599D3 /* Info.plist */,
+			);
+			path = GHAddressSelectDemoUITests;
+			sourceTree = "<group>";
+		};
+		D6CACE3E224339F500B599D3 /* GHAddressSelect */ = {
+			isa = PBXGroup;
+			children = (
+				D6CACE4622434BE400B599D3 /* Category */,
+				D6CACE3F22433A0400B599D3 /* GHAddressSelect.h */,
+				D6CACE4022433A0400B599D3 /* GHAddressSelect.m */,
+				D6CACE6222434DFE00B599D3 /* GHAddressSelectCell.h */,
+				D6CACE6322434DFE00B599D3 /* GHAddressSelectCell.m */,
+				D6CACE652243506500B599D3 /* GHAddressSelectModel.h */,
+				D6CACE662243506500B599D3 /* GHAddressSelectModel.m */,
+				D6CACE452243415C00B599D3 /* GHAddressSelectHeader.h */,
+				D6CACE6822435D6500B599D3 /* ToastTool.h */,
+				D6CACE6922435D6500B599D3 /* ToastTool.m */,
+			);
+			path = GHAddressSelect;
+			sourceTree = "<group>";
+		};
+		D6CACE4622434BE400B599D3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D6CACE4722434BE400B599D3 /* UIButton+BackGroundColor.m */,
+				D6CACE4822434BE400B599D3 /* UIView+GHAdd.h */,
+				D6CACE4922434BE400B599D3 /* NSDictionary+GHAdd.m */,
+				D6CACE4A22434BE400B599D3 /* UITableView+GHAdd.h */,
+				D6CACE4B22434BE400B599D3 /* NSString+GHAdd.m */,
+				D6CACE4C22434BE400B599D3 /* NSObject+GHAdd.h */,
+				D6CACE4D22434BE400B599D3 /* UILabel+GHAdd.h */,
+				D6CACE4E22434BE400B599D3 /* UIColor+Category.h */,
+				D6CACE4F22434BE400B599D3 /* NSArray+GHAdd.h */,
+				D6CACE5022434BE400B599D3 /* NSDictionary+GHAdd.h */,
+				D6CACE5122434BE400B599D3 /* UIView+GHAdd.m */,
+				D6CACE5222434BE400B599D3 /* UIButton+BackGroundColor.h */,
+				D6CACE5322434BE400B599D3 /* NSString+GHAdd.h */,
+				D6CACE5422434BE400B599D3 /* NSObject+GHAdd.m */,
+				D6CACE5522434BE400B599D3 /* UITableView+GHAdd.m */,
+				D6CACE5622434BE400B599D3 /* UIColor+Category.m */,
+				D6CACE5722434BE400B599D3 /* UILabel+GHAdd.m */,
+				D6CACE5822434BE400B599D3 /* NSArray+GHAdd.m */,
+			);
+			path = Category;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6CACE08224339E400B599D3 /* GHAddressSelectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CACE35224339E500B599D3 /* Build configuration list for PBXNativeTarget "GHAddressSelectDemo" */;
+			buildPhases = (
+				1AB37B9C33904D39B2550C7F /* [CP] Check Pods Manifest.lock */,
+				D6CACE05224339E400B599D3 /* Sources */,
+				D6CACE06224339E400B599D3 /* Frameworks */,
+				D6CACE07224339E400B599D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHAddressSelectDemo;
+			productName = GHAddressSelectDemo;
+			productReference = D6CACE09224339E400B599D3 /* GHAddressSelectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6CACE20224339E500B599D3 /* GHAddressSelectDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CACE38224339E500B599D3 /* Build configuration list for PBXNativeTarget "GHAddressSelectDemoTests" */;
+			buildPhases = (
+				0AF3E8B4DBE406FD57D9FD62 /* [CP] Check Pods Manifest.lock */,
+				D6CACE1D224339E500B599D3 /* Sources */,
+				D6CACE1E224339E500B599D3 /* Frameworks */,
+				D6CACE1F224339E500B599D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CACE23224339E500B599D3 /* PBXTargetDependency */,
+			);
+			name = GHAddressSelectDemoTests;
+			productName = GHAddressSelectDemoTests;
+			productReference = D6CACE21224339E500B599D3 /* GHAddressSelectDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6CACE2B224339E500B599D3 /* GHAddressSelectDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CACE3B224339E500B599D3 /* Build configuration list for PBXNativeTarget "GHAddressSelectDemoUITests" */;
+			buildPhases = (
+				8BEBE161F25C382FD5641950 /* [CP] Check Pods Manifest.lock */,
+				D6CACE28224339E500B599D3 /* Sources */,
+				D6CACE29224339E500B599D3 /* Frameworks */,
+				D6CACE2A224339E500B599D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CACE2E224339E500B599D3 /* PBXTargetDependency */,
+			);
+			name = GHAddressSelectDemoUITests;
+			productName = GHAddressSelectDemoUITests;
+			productReference = D6CACE2C224339E500B599D3 /* GHAddressSelectDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6CACE01224339E400B599D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = GHome;
+				TargetAttributes = {
+					D6CACE08224339E400B599D3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D6CACE20224339E500B599D3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D6CACE08224339E400B599D3;
+					};
+					D6CACE2B224339E500B599D3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D6CACE08224339E400B599D3;
+					};
+				};
+			};
+			buildConfigurationList = D6CACE04224339E400B599D3 /* Build configuration list for PBXProject "GHAddressSelectDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6CACE00224339E400B599D3;
+			productRefGroup = D6CACE0A224339E400B599D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6CACE08224339E400B599D3 /* GHAddressSelectDemo */,
+				D6CACE20224339E500B599D3 /* GHAddressSelectDemoTests */,
+				D6CACE2B224339E500B599D3 /* GHAddressSelectDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6CACE07224339E400B599D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CACE19224339E500B599D3 /* LaunchScreen.storyboard in Resources */,
+				D6CACE16224339E500B599D3 /* Assets.xcassets in Resources */,
+				D6CACE14224339E400B599D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CACE1F224339E500B599D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CACE2A224339E500B599D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF3E8B4DBE406FD57D9FD62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GHAddressSelectDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AB37B9C33904D39B2550C7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GHAddressSelectDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BEBE161F25C382FD5641950 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GHAddressSelectDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6CACE05224339E400B599D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CACE6422434DFE00B599D3 /* GHAddressSelectCell.m in Sources */,
+				D6CACE11224339E400B599D3 /* ViewController.m in Sources */,
+				D6CACE442243406900B599D3 /* GHHTTPManager.m in Sources */,
+				D6CACE5E22434BE400B599D3 /* UITableView+GHAdd.m in Sources */,
+				D6CACE4122433A0400B599D3 /* GHAddressSelect.m in Sources */,
+				D6CACE5A22434BE400B599D3 /* NSDictionary+GHAdd.m in Sources */,
+				D6CACE5D22434BE400B599D3 /* NSObject+GHAdd.m in Sources */,
+				D6CACE672243506500B599D3 /* GHAddressSelectModel.m in Sources */,
+				D6CACE6A22435D6500B599D3 /* ToastTool.m in Sources */,
+				D6CACE6022434BE400B599D3 /* UILabel+GHAdd.m in Sources */,
+				D6CACE1C224339E500B599D3 /* main.m in Sources */,
+				D6CACE0E224339E400B599D3 /* AppDelegate.m in Sources */,
+				D6CACE5C22434BE400B599D3 /* UIView+GHAdd.m in Sources */,
+				D6CACE5B22434BE400B599D3 /* NSString+GHAdd.m in Sources */,
+				D6CACE6122434BE400B599D3 /* NSArray+GHAdd.m in Sources */,
+				D6CACE5922434BE400B599D3 /* UIButton+BackGroundColor.m in Sources */,
+				D6CACE5F22434BE400B599D3 /* UIColor+Category.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CACE1D224339E500B599D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CACE26224339E500B599D3 /* GHAddressSelectDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CACE28224339E500B599D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CACE31224339E500B599D3 /* GHAddressSelectDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6CACE23224339E500B599D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CACE08224339E400B599D3 /* GHAddressSelectDemo */;
+			targetProxy = D6CACE22224339E500B599D3 /* PBXContainerItemProxy */;
+		};
+		D6CACE2E224339E500B599D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CACE08224339E400B599D3 /* GHAddressSelectDemo */;
+			targetProxy = D6CACE2D224339E500B599D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6CACE12224339E400B599D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CACE13224339E400B599D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6CACE17224339E500B599D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CACE18224339E500B599D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6CACE33224339E500B599D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6CACE34224339E500B599D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6CACE36224339E500B599D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F9AE9B531ADE09A26E0FEF /* Pods-GHAddressSelectDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHAddressSelectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GHome.GHAddressSelectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6CACE37224339E500B599D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1E7F7DF2DB824884360597 /* Pods-GHAddressSelectDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHAddressSelectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GHome.GHAddressSelectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6CACE39224339E500B599D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC9FB04B7778C665DFC371F /* Pods-GHAddressSelectDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHAddressSelectDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GHome.GHAddressSelectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHAddressSelectDemo.app/GHAddressSelectDemo";
+			};
+			name = Debug;
+		};
+		D6CACE3A224339E500B599D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41E2934C8BC948DAE25BDBA /* Pods-GHAddressSelectDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHAddressSelectDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GHome.GHAddressSelectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHAddressSelectDemo.app/GHAddressSelectDemo";
+			};
+			name = Release;
+		};
+		D6CACE3C224339E500B599D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F91DD39C0769A1990D27FA /* Pods-GHAddressSelectDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHAddressSelectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GHome.GHAddressSelectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GHAddressSelectDemo;
+			};
+			name = Debug;
+		};
+		D6CACE3D224339E500B599D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04C08AB447B72E328C656F3 /* Pods-GHAddressSelectDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHAddressSelectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GHome.GHAddressSelectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GHAddressSelectDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6CACE04224339E400B599D3 /* Build configuration list for PBXProject "GHAddressSelectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CACE33224339E500B599D3 /* Debug */,
+				D6CACE34224339E500B599D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CACE35224339E500B599D3 /* Build configuration list for PBXNativeTarget "GHAddressSelectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CACE36224339E500B599D3 /* Debug */,
+				D6CACE37224339E500B599D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CACE38224339E500B599D3 /* Build configuration list for PBXNativeTarget "GHAddressSelectDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CACE39224339E500B599D3 /* Debug */,
+				D6CACE3A224339E500B599D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CACE3B224339E500B599D3 /* Build configuration list for PBXNativeTarget "GHAddressSelectDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CACE3C224339E500B599D3 /* Debug */,
+				D6CACE3D224339E500B599D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6CACE01224339E400B599D3 /* Project object */;
+}
