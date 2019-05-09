@@ -22,7 +22,6 @@
 @interface GHAddressSelect()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic , strong) UIScrollView *bottomScrollView;
 @property (nonatomic , strong) UIScrollView *topScrollView;
-
 @property (nonatomic , strong) UIControl *contentView;
 @property (nonatomic , strong) UILabel *title;
 @property (nonatomic , strong) UIView *line;
@@ -32,12 +31,12 @@
 @property (nonatomic , strong) NSMutableArray *titles;
 @property (nonatomic , assign) NSInteger currentIndex;
 @property (nonatomic , strong) NSMutableArray *cityes;
-
 @property (nonatomic , copy) NSString *cityCode;;
 @property (nonatomic , copy) NSString *districtCode;;
 @property (nonatomic , assign) BOOL isTap;
 @property (nonatomic , strong) UIView *bottomLine;
 @property (nonatomic , copy) GHAddressSelectBlock seletedBlock;;
+@property (nonatomic , strong) UIButton *close;
 
 @end
 @implementation GHAddressSelect
@@ -59,6 +58,7 @@
     }
     return self;
 }
+
 - (void)setupDefault {
     self.frame = [UIApplication sharedApplication].keyWindow.bounds;
     self.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:102.0/255];
@@ -67,6 +67,9 @@
     [self addSubview:self.contentView];
     /** 配送至 */
     [self.contentView addSubview:self.title];
+    
+    [self.contentView addSubview:self.close];
+
     /** 线 */
     [self.contentView addSubview:self.line];
     /** 顶部滚动 */
@@ -77,6 +80,7 @@
     
     [self setupUITitlesWithString:nil];
 }
+
 #pragma mark - 所有区域请求数据
 - (void)loadDataWithTag: (NSInteger)tag code: (NSString *)code {
     UITableView *tableView = [self.tableViews by_ObjectAtIndex:tag];
@@ -271,7 +275,7 @@
     
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-//
+
     UITableView *table = [self.tableViews by_ObjectAtIndex:self.currentIndex];
     GHAddressSelectModel *addressSelectModel = [table.gh_dataArray by_ObjectAtIndex:indexPath.row];
     NSString *cellIdentifier = [NSString stringWithFormat:@"GHAddressSelectCell%ld%ld",(long)self.currentIndex,(long)indexPath.row];
@@ -325,6 +329,10 @@
     });
 }
 
+- (void)clickButton: (UIButton *)button {
+    [self dismiss];
+}
+
 - (void)show {
     
     [kKeyWindow addSubview:self];
@@ -347,7 +355,18 @@
         
     }];
 }
+
 #pragma mark - get
+- (UIButton *)close {
+    if (_close == nil) {
+        _close = [[UIButton alloc]init];
+        _close.frame = CGRectMake(kScreenWidth - kAutoWithSize(22) - 20, kAutoWithSize(10), kAutoWithSize(22), kAutoWithSize(22));
+        [_close setImage:[UIImage imageNamed:@"close@2x"] forState:UIControlStateNormal];
+        [_close addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _close;
+}
+
 - (NSMutableArray *)titles {
     if (_titles == nil) {
         _titles = [NSMutableArray array];
@@ -361,18 +380,21 @@
     }
     return _cityes;
 }
+
 - (NSMutableArray *)dataArray {
     if (_dataArray == nil) {
         _dataArray = [NSMutableArray array];
     }
     return _dataArray;
 }
+
 - (NSMutableArray *)tableViews {
     if (_tableViews == nil) {
         _tableViews = [NSMutableArray array];
     }
     return _tableViews;
 }
+
 - (UIButton *)choseFirst {
     if (_choseFirst == nil) {
         _choseFirst = [[UIButton alloc]initWithFrame:CGRectMake(kMargin10, self.line.gh_top + 0.5, 60, 40)];
@@ -398,6 +420,7 @@
     }
     return _line;
 }
+
 - (UILabel *)title {
     if (_title == nil) {
         _title = [[UILabel alloc]initWithFrame:CGRectMake(0, kAutoWithSize(10), kScreenWidth, kAutoWithSize(22))];
@@ -427,6 +450,7 @@
     }
     return _topScrollView;
 }
+
 - (UIScrollView *)bottomScrollView {
     if (_bottomScrollView == nil) {
         _bottomScrollView = [[UIScrollView alloc]init];
@@ -438,6 +462,5 @@
     }
     return _bottomScrollView;
 }
-
 
 @end
