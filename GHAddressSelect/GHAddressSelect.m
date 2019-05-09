@@ -67,9 +67,7 @@
     [self addSubview:self.contentView];
     /** 配送至 */
     [self.contentView addSubview:self.title];
-    
     [self.contentView addSubview:self.close];
-
     /** 线 */
     [self.contentView addSubview:self.line];
     /** 顶部滚动 */
@@ -203,11 +201,13 @@
     [UIView animateWithDuration:0.25 animations:^{
         self.bottomLine.frame = CGRectMake(lastLabel.gh_left, CGRectGetMaxY(lastLabel.frame) - 3, lastLabel.gh_width, 3);
     }];
+    
     if (self.tableViews.count > self.titles.count) {
         NSMutableArray *actionArray = [self.tableViews subarrayWithRange:NSMakeRange(0 , self.titles.count)].mutableCopy;
         self.tableViews = actionArray;
     }
 }
+
 #pragma mark - 手势响应
 - (void)respondToTap:(UITapGestureRecognizer *)ges {
     if (self.bottomScrollView.tracking && self.bottomScrollView.dragging && self.bottomScrollView.decelerating) {
@@ -256,7 +256,6 @@
             }];
         }
     }
-    
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
