@@ -28,7 +28,7 @@
             [string appendFormat:@"%@ ",dict[@"cityName"]];
         }
         self.navigationItem.title = [NSString stringWithFormat:@"用户选择的事是:%@",string];
-        NSLog(@"%@",array);
+        NSLog(@"结果%@",array);
     }];
         
     [addressSelect show];

@@ -11,8 +11,11 @@
 
 ![Untitled.gif](https://upload-images.jianshu.io/upload_images/1419035-b83d31880e0c8b46.gif?imageMogr2/auto-orient/strip)
 
->有的项目地址是动态从服务器获取,在网上找了很多demo都是写死的,于是写了一个动态获取数据的地址选择器,同一类别点击任意一行都是请求的第一行数据.以下是接口,不需要入参,请求方式为post,参数放在请求头中,在使用的时候直接替换成你的接口和入参
+>有的项目地址是动态从服务器获取,在网上找了很多`demo`都是写死的,于是写了一个动态获取数据的地址选择器,同一类别点击任意一行都是请求的第一行数据.以下是接口,不需要入参,请求方式为`post`,参数放在请求头中,在使用的时候直接替换成你的接口和入参
 
+使用方法
+
+![1-2.png](https://upload-images.jianshu.io/upload_images/1419035-4fbe9eabc57dab4b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 接口
 
@@ -28,4 +31,4 @@
 
 
 实现思路 
-TODO
+

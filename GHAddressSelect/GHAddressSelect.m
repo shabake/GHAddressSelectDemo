@@ -167,9 +167,7 @@
             lab.text = string;
         }
     }
-    
     [self.contentView addSubview:title];
-    
     /** 创建tableView */
     UITableView *tableView = [[UITableView alloc]init];
     tableView.frame = CGRectMake((self.titles.count -1 )* kScreenWidth, 0, kScreenWidth, self.bottomScrollView.gh_height);
